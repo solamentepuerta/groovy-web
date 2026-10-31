@@ -1,0 +1,2588 @@
+{
+ "url": "http://localhost:3111/groovy",
+ "at": "2026-10-26T12:32:34.667Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0.98,
+    0.98
+   ],
+   "motion": {
+    "elements": 19,
+    "css": 0,
+    "transitions": 6,
+    "scripted": 13,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 15285,
+     "screens": 17,
+     "words": 365,
+     "img": 14,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 14,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "Ai.jpg",
+      "night-event-1.jpg",
+      "night-event-3.jpg",
+      "night-event-5.jpg",
+      "studio-photos-11.jpg",
+      "studio-photos-1.jpg",
+      "boda-event-1.jpg",
+      "boda-event-3.jpg"
+     ],
+     "blendText": 1,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "GROOVY · PICS",
+     "words": 3,
+     "chars": 13,
+     "lines": 1,
+     "size": 36,
+     "vw": 2.5,
+     "font": "TikTok Sans",
+     "weight": 800,
+     "tracking": -0.01,
+     "leading": 1,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.51,
+     "top": 203,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "GROOVY · PICS",
+     "words": 3,
+     "lines": 1,
+     "size": 36,
+     "font": "TikTok Sans"
+    },
+    "headings": [
+     {
+      "text": "GROOVY · PICS",
+      "words": 3,
+      "chars": 13,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "TikTok Sans",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.51,
+      "top": 203,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Lo que hago",
+      "words": 3,
+      "chars": 11,
+      "lines": 1,
+      "size": 34.6,
+      "vw": 2.4,
+      "font": "TikTok Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.14,
+      "top": 5840,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "STUDIO STUDIO",
+      "words": 2,
+      "chars": 13,
+      "lines": 2,
+      "size": 158.4,
+      "vw": 11,
+      "font": "TikTok Sans",
+      "weight": 800,
+      "tracking": -0.04,
+      "leading": 0.8,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 1,
+      "top": 6195,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "DE DÍA DE DÍA",
+      "words": 4,
+      "chars": 13,
+      "lines": 2,
+      "size": 158.4,
+      "vw": 11,
+      "font": "TikTok Sans",
+      "weight": 800,
+      "tracking": -0.04,
+      "leading": 0.8,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 1,
+      "top": 7095,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "DE NOCHE DE NOCHE",
+      "words": 4,
+      "chars": 17,
+      "lines": 2,
+      "size": 158.4,
+      "vw": 11,
+      "font": "TikTok Sans",
+      "weight": 800,
+      "tracking": -0.04,
+      "leading": 0.8,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 1,
+      "top": 7995,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "GROOVY",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 172.8,
+      "vw": 12,
+      "font": "TikTok Sans",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.85,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 1,
+      "top": 8508,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Antes de escribir",
+      "words": 3,
+      "chars": 17,
+      "lines": 1,
+      "size": 37.4,
+      "vw": 2.6,
+      "font": "TikTok Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 12579,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "¿Cómo reservo una fecha?",
+      "words": 4,
+      "chars": 24,
+      "lines": 1,
+      "size": 37.4,
+      "vw": 2.6,
+      "font": "TikTok Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 12700,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "¿Cuánto tardan las fotos?",
+      "words": 4,
+      "chars": 25,
+      "lines": 1,
+      "size": 37.4,
+      "vw": 2.6,
+      "font": "TikTok Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 12859,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "¿Trabajas fuera de Maracay?",
+      "words": 4,
+      "chars": 27,
+      "lines": 1,
+      "size": 37.4,
+      "vw": 2.6,
+      "font": "TikTok Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 13018,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "¿Qué recibo al final?",
+      "words": 4,
+      "chars": 21,
+      "lines": 1,
+      "size": 37.4,
+      "vw": 2.6,
+      "font": "TikTok Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 13177,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "¿Puedo pedir fotos para mi marca?",
+      "words": 6,
+      "chars": 33,
+      "lines": 1,
+      "size": 37.4,
+      "vw": 2.6,
+      "font": "TikTok Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 13336,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Tu próxima historia, contada bien",
+      "words": 5,
+      "chars": 33,
+      "lines": 2,
+      "size": 48,
+      "vw": 3.3,
+      "font": "TikTok Sans",
+      "weight": 300,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.37,
+      "top": 13975,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Hablemos de tu fecha",
+      "words": 4,
+      "chars": 20,
+      "lines": 1,
+      "size": 72,
+      "vw": 5,
+      "font": "TikTok Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.55,
+      "top": 14481,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "GROOVY",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 388.8,
+      "vw": 27,
+      "font": "TikTok Sans",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.8,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 1,
+      "top": 15067,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 15,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 3,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "TikTok Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      22,
+      35,
+      36,
+      37,
+      48,
+      72,
+      158,
+      173,
+      389
+     ],
+     "sizeCount": 16,
+     "notLoaded": [],
+     "body": {
+      "font": "TikTok Sans",
+      "size": 17,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 6.8
+     },
+     "measureChars": 31,
+     "max": {
+      "size": 388.8,
+      "vw": 27,
+      "font": "TikTok Sans",
+      "text": "Groovy"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.03,
+     "centerShare": 0.08,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#dfdedb",
+     "bodyBgHsl": {
+      "h": 45,
+      "s": 0.06,
+      "l": 0.87
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#0a0b0d",
+       "top": 0,
+       "hsl": {
+        "h": 220,
+        "s": 0.13,
+        "l": 0.05
+       }
+      },
+      {
+       "color": "#ecedef",
+       "top": 171,
+       "hsl": {
+        "h": 220,
+        "s": 0.09,
+        "l": 0.93
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#9298a3",
+       "share": 0.48
+      },
+      {
+       "color": "#edeef0",
+       "share": 0.29
+      },
+      {
+       "color": "#0a0b0d",
+       "share": 0.16
+      },
+      {
+       "color": "#edeff0",
+       "share": 0.05
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#2f6bff",
+      "hsl": {
+       "h": 223,
+       "s": 1,
+       "l": 0.59
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 1,
+     "radius": 0,
+     "height": 56,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Reservar sesión"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 3,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 14,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 1
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 2880,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "tiktok sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 15285,
+    "margins": {
+     "left": 0,
+     "right": 0
+    },
+    "sections": [
+     {
+      "sel": "header.g-hero",
+      "tag": "header",
+      "top": 0,
+      "height": 2880,
+      "words": 30,
+      "media": 1,
+      "middle": 174,
+      "heading": {
+       "text": "Groovy",
+       "size": 36,
+       "tag": "h1"
+      },
+      "left": 356,
+      "right": 356,
+      "textLeft": 356,
+      "textRight": 356,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": true
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 2880,
+      "height": 2928,
+      "words": 40,
+      "media": 3,
+      "middle": 343,
+      "heading": null,
+      "left": 32,
+      "right": 618,
+      "textLeft": 32,
+      "textRight": 618,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": true
+     },
+     {
+      "sel": "section.g-work",
+      "tag": "section",
+      "top": 5808,
+      "height": 2700,
+      "words": 32,
+      "media": 4,
+      "middle": 0,
+      "heading": {
+       "text": "Studio",
+       "size": 158,
+       "tag": "h3"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": 32,
+      "textRight": 162,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 8508,
+      "height": 3910,
+      "words": 44,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Groovy",
+       "size": 173,
+       "tag": "h2"
+      },
+      "left": 187,
+      "right": 187,
+      "textLeft": 187,
+      "textRight": 187,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": true
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 12419,
+      "height": 1156,
+      "words": 137,
+      "media": 0,
+      "middle": 196,
+      "heading": {
+       "text": "Antes de escribir",
+       "size": 37,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 161,
+      "textLeft": 32,
+      "textRight": 161,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 13575,
+      "height": 810,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.g-footer",
+      "tag": "footer",
+      "top": 14385,
+      "height": 900,
+      "words": 31,
+      "media": 0,
+      "middle": 301,
+      "heading": {
+       "text": "Hablemos de tu fecha",
+       "size": 72,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 0,
+      "textRight": 0,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "GROOVY · PICS",
+      "size": 36,
+      "top": 203,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 32,
+      "n": 7
+     },
+     {
+      "x": 849,
+      "n": 5
+     },
+     {
+      "x": 356,
+      "n": 2
+     },
+     {
+      "x": 187,
+      "n": 1
+     },
+     {
+      "x": 610,
+      "n": 1
+     },
+     {
+      "x": 967,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 17,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0.97,
+    0.99
+   ],
+   "motion": {
+    "elements": 19,
+    "css": 0,
+    "transitions": 6,
+    "scripted": 13,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 16442,
+     "screens": 16.1,
+     "words": 365,
+     "img": 14,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 14,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "Ai.jpg",
+      "night-event-1.jpg",
+      "night-event-3.jpg",
+      "night-event-5.jpg",
+      "studio-photos-11.jpg",
+      "studio-photos-1.jpg",
+      "boda-event-1.jpg",
+      "boda-event-3.jpg"
+     ],
+     "blendText": 1,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "GROOVY · PICS",
+     "words": 3,
+     "chars": 13,
+     "lines": 1,
+     "size": 28,
+     "vw": 3.6,
+     "font": "TikTok Sans",
+     "weight": 800,
+     "tracking": -0.01,
+     "leading": 1,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.47,
+     "top": 227,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "GROOVY · PICS",
+     "words": 3,
+     "lines": 1,
+     "size": 28,
+     "font": "TikTok Sans"
+    },
+    "headings": [
+     {
+      "text": "GROOVY · PICS",
+      "words": 3,
+      "chars": 13,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "TikTok Sans",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.47,
+      "top": 227,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Lo que hago",
+      "words": 3,
+      "chars": 11,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "TikTok Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 6609,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "STUDIO STUDIO",
+      "words": 2,
+      "chars": 13,
+      "lines": 2,
+      "size": 96,
+      "vw": 12.5,
+      "font": "TikTok Sans",
+      "weight": 800,
+      "tracking": -0.04,
+      "leading": 0.8,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 1,
+      "top": 7051,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "DE DÍA DE DÍA",
+      "words": 4,
+      "chars": 13,
+      "lines": 2,
+      "size": 96,
+      "vw": 12.5,
+      "font": "TikTok Sans",
+      "weight": 800,
+      "tracking": -0.04,
+      "leading": 0.8,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 1,
+      "top": 8075,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "DE NOCHE DE NOCHE",
+      "words": 4,
+      "chars": 17,
+      "lines": 2,
+      "size": 96,
+      "vw": 12.5,
+      "font": "TikTok Sans",
+      "weight": 800,
+      "tracking": -0.04,
+      "leading": 0.8,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 1,
+      "top": 9099,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "GROOVY",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 92.2,
+      "vw": 12,
+      "font": "TikTok Sans",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.85,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 1,
+      "top": 9649,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Antes de escribir",
+      "words": 3,
+      "chars": 17,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "TikTok Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 13354,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "¿Cómo reservo una fecha?",
+      "words": 4,
+      "chars": 24,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "TikTok Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 13463,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "¿Cuánto tardan las fotos?",
+      "words": 4,
+      "chars": 25,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "TikTok Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 13675,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "¿Trabajas fuera de Maracay?",
+      "words": 4,
+      "chars": 27,
+      "lines": 2,
+      "size": 26,
+      "vw": 3.4,
+      "font": "TikTok Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 13860,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "¿Qué recibo al final?",
+      "words": 4,
+      "chars": 21,
+      "lines": 1,
+      "size": 26,
+      "vw": 3.4,
+      "font": "TikTok Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 14045,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "¿Puedo pedir fotos para mi marca?",
+      "words": 6,
+      "chars": 33,
+      "lines": 2,
+      "size": 26,
+      "vw": 3.4,
+      "font": "TikTok Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 14231,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Tu próxima historia, contada bien",
+      "words": 5,
+      "chars": 33,
+      "lines": 2,
+      "size": 30,
+      "vw": 3.9,
+      "font": "TikTok Sans",
+      "weight": 300,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.38,
+      "top": 14996,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Hablemos de tu fecha",
+      "words": 4,
+      "chars": 20,
+      "lines": 1,
+      "size": 38.4,
+      "vw": 5,
+      "font": "TikTok Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.52,
+      "top": 15514,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "GROOVY",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 207.4,
+      "vw": 27,
+      "font": "TikTok Sans",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.8,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 1,
+      "top": 16326,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 15,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 3,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "TikTok Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      26,
+      28,
+      30,
+      38,
+      92,
+      96,
+      207
+     ],
+     "sizeCount": 13,
+     "notLoaded": [],
+     "body": {
+      "font": "TikTok Sans",
+      "size": 17,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 6.8
+     },
+     "measureChars": 31,
+     "max": {
+      "size": 207.4,
+      "vw": 27,
+      "font": "TikTok Sans",
+      "text": "Groovy"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.03,
+     "centerShare": 0.08,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#dfdedb",
+     "bodyBgHsl": {
+      "h": 45,
+      "s": 0.06,
+      "l": 0.87
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#0a0b0d",
+       "top": 0,
+       "hsl": {
+        "h": 220,
+        "s": 0.13,
+        "l": 0.05
+       }
+      },
+      {
+       "color": "#ecedef",
+       "top": 195,
+       "hsl": {
+        "h": 220,
+        "s": 0.09,
+        "l": 0.93
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#9298a3",
+       "share": 0.48
+      },
+      {
+       "color": "#edeef0",
+       "share": 0.29
+      },
+      {
+       "color": "#0a0b0d",
+       "share": 0.16
+      },
+      {
+       "color": "#edeff0",
+       "share": 0.05
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#2f6bff",
+      "hsl": {
+       "h": 223,
+       "s": 1,
+       "l": 0.59
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 1,
+     "radius": 0,
+     "height": 56,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Reservar sesión"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 3,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 14,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 1
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 3277,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "tiktok sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 16442,
+    "margins": {
+     "left": 0,
+     "right": 0
+    },
+    "sections": [
+     {
+      "sel": "header.g-hero",
+      "tag": "header",
+      "top": 0,
+      "height": 3277,
+      "words": 30,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Groovy",
+       "size": 28,
+       "tag": "h1"
+      },
+      "left": 205,
+      "right": 205,
+      "textLeft": 205,
+      "textRight": 205,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": true
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 3277,
+      "height": 3300,
+      "words": 40,
+      "media": 3,
+      "middle": 0,
+      "heading": null,
+      "left": 32,
+      "right": 335,
+      "textLeft": 32,
+      "textRight": 335,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": true
+     },
+     {
+      "sel": "section.g-work",
+      "tag": "section",
+      "top": 6577,
+      "height": 3072,
+      "words": 32,
+      "media": 4,
+      "middle": 0,
+      "heading": {
+       "text": "Studio",
+       "size": 96,
+       "tag": "h3"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": 32,
+      "textRight": 46,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 9649,
+      "height": 3545,
+      "words": 44,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Groovy",
+       "size": 92,
+       "tag": "h2"
+      },
+      "left": 100,
+      "right": 100,
+      "textLeft": 100,
+      "textRight": 100,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": true
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 13194,
+      "height": 1302,
+      "words": 137,
+      "media": 0,
+      "middle": 90,
+      "heading": {
+       "text": "Antes de escribir",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 34,
+      "textLeft": 32,
+      "textRight": 34,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 14496,
+      "height": 922,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.g-footer",
+      "tag": "footer",
+      "top": 15418,
+      "height": 1024,
+      "words": 31,
+      "media": 0,
+      "middle": 110,
+      "heading": {
+       "text": "Hablemos de tu fecha",
+       "size": 38,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 0,
+      "textRight": 0,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 15688,
+      "height": 316
+     }
+    ],
+    "h1s": [
+     {
+      "text": "GROOVY · PICS",
+      "size": 28,
+      "top": 227,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 32,
+      "n": 7
+     },
+     {
+      "x": 457,
+      "n": 5
+     },
+     {
+      "x": 205,
+      "n": 2
+     },
+     {
+      "x": 100,
+      "n": 1
+     },
+     {
+      "x": 220,
+      "n": 1
+     },
+     {
+      "x": 472,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 17,
+    "bodySize": 17,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.96,
+    0.96,
+    0.96,
+    0.96,
+    0.96,
+    0.96,
+    0.96,
+    0.96,
+    0.96,
+    0.93,
+    0.92,
+    0.93
+   ],
+   "motion": {
+    "elements": 20,
+    "css": 0,
+    "transitions": 7,
+    "scripted": 13,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 399,
+     "h": 864
+    },
+    "page": {
+     "height": 13303,
+     "screens": 15.4,
+     "words": 365,
+     "img": 14,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 14,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "Ai.jpg",
+      "night-event-1.jpg",
+      "night-event-3.jpg",
+      "night-event-5.jpg",
+      "studio-photos-11.jpg",
+      "studio-photos-1.jpg",
+      "boda-event-1.jpg",
+      "boda-event-3.jpg"
+     ],
+     "blendText": 1,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "GROOVY · PICS",
+     "words": 3,
+     "chars": 13,
+     "lines": 2,
+     "size": 35.1,
+     "vw": 8.8,
+     "font": "TikTok Sans",
+     "weight": 800,
+     "tracking": -0.01,
+     "leading": 1,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.78,
+     "top": 151,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "GROOVY · PICS",
+     "words": 3,
+     "lines": 2,
+     "size": 35.1,
+     "font": "TikTok Sans"
+    },
+    "headings": [
+     {
+      "text": "GROOVY · PICS",
+      "words": 3,
+      "chars": 13,
+      "lines": 2,
+      "size": 35.1,
+      "vw": 8.8,
+      "font": "TikTok Sans",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.78,
+      "top": 151,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Lo que hago",
+      "words": 3,
+      "chars": 11,
+      "lines": 1,
+      "size": 28,
+      "vw": 7,
+      "font": "TikTok Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.5,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.41,
+      "top": 4935,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "STUDIO STUDIO",
+      "words": 2,
+      "chars": 13,
+      "lines": 2,
+      "size": 48.8,
+      "vw": 12.2,
+      "font": "TikTok Sans",
+      "weight": 800,
+      "tracking": -0.04,
+      "leading": 0.8,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.98,
+      "top": 5317,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "DE DÍA DE DÍA",
+      "words": 4,
+      "chars": 13,
+      "lines": 2,
+      "size": 48.8,
+      "vw": 12.2,
+      "font": "TikTok Sans",
+      "weight": 800,
+      "tracking": -0.04,
+      "leading": 0.8,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.98,
+      "top": 6161,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "DE NOCHE DE NOCHE",
+      "words": 4,
+      "chars": 17,
+      "lines": 2,
+      "size": 48.8,
+      "vw": 12.2,
+      "font": "TikTok Sans",
+      "weight": 800,
+      "tracking": -0.04,
+      "leading": 0.8,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.98,
+      "top": 7005,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "GROOVY",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 66.3,
+      "vw": 16.6,
+      "font": "TikTok Sans",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.85,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.98,
+      "top": 7447,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Antes de escribir",
+      "words": 3,
+      "chars": 17,
+      "lines": 1,
+      "size": 24,
+      "vw": 6,
+      "font": "TikTok Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 10494,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "¿Cómo reservo una fecha?",
+      "words": 4,
+      "chars": 24,
+      "lines": 1,
+      "size": 24,
+      "vw": 6,
+      "font": "TikTok Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 10576,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "¿Cuánto tardan las fotos?",
+      "words": 4,
+      "chars": 25,
+      "lines": 1,
+      "size": 24,
+      "vw": 6,
+      "font": "TikTok Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 10776,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "¿Trabajas fuera de Maracay?",
+      "words": 4,
+      "chars": 27,
+      "lines": 1,
+      "size": 24,
+      "vw": 6,
+      "font": "TikTok Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 10949,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "¿Qué recibo al final?",
+      "words": 4,
+      "chars": 21,
+      "lines": 1,
+      "size": 24,
+      "vw": 6,
+      "font": "TikTok Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 11123,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "¿Puedo pedir fotos para mi marca?",
+      "words": 6,
+      "chars": 33,
+      "lines": 2,
+      "size": 24,
+      "vw": 6,
+      "font": "TikTok Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 11296,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Tu próxima historia, contada bien",
+      "words": 5,
+      "chars": 33,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.5,
+      "font": "TikTok Sans",
+      "weight": 300,
+      "tracking": 0,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 12185,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Hablemos de tu fecha",
+      "words": 4,
+      "chars": 20,
+      "lines": 2,
+      "size": 42.9,
+      "vw": 10.8,
+      "font": "TikTok Sans",
+      "weight": 500,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 12523,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "GROOVY",
+      "words": 1,
+      "chars": 6,
+      "lines": 1,
+      "size": 132.6,
+      "vw": 33.2,
+      "font": "TikTok Sans",
+      "weight": 800,
+      "tracking": -0.01,
+      "leading": 0.8,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.98,
+      "top": 13229,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 15,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 3,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "TikTok Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      24,
+      28,
+      30,
+      35,
+      43,
+      49,
+      66,
+      133
+     ],
+     "sizeCount": 14,
+     "notLoaded": [],
+     "body": {
+      "font": "TikTok Sans",
+      "size": 17,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 6.8
+     },
+     "measureChars": 31,
+     "max": {
+      "size": 132.6,
+      "vw": 33.2,
+      "font": "TikTok Sans",
+      "text": "Groovy"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.03,
+     "centerShare": 0.08,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#dfdedb",
+     "bodyBgHsl": {
+      "h": 45,
+      "s": 0.06,
+      "l": 0.87
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#0a0b0d",
+       "top": 0,
+       "hsl": {
+        "h": 220,
+        "s": 0.13,
+        "l": 0.05
+       }
+      },
+      {
+       "color": "#ecedef",
+       "top": 127,
+       "hsl": {
+        "h": 220,
+        "s": 0.09,
+        "l": 0.93
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#9298a3",
+       "share": 0.48
+      },
+      {
+       "color": "#edeef0",
+       "share": 0.27
+      },
+      {
+       "color": "#0a0b0d",
+       "share": 0.17
+      },
+      {
+       "color": "#4a4f57",
+       "share": 0.05
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#2f6bff",
+      "hsl": {
+       "h": 223,
+       "s": 1,
+       "l": 0.59
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 1,
+     "radius": 0,
+     "height": 56,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Reservar sesión"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 3,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 8,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.95
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 2194,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "tiktok sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 399,
+     "h": 864
+    },
+    "pageH": 13303,
+    "margins": {
+     "left": 0,
+     "right": 9
+    },
+    "sections": [
+     {
+      "sel": "div.g-hero-bg",
+      "tag": "div",
+      "top": 0,
+      "height": 844,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": true
+     },
+     {
+      "sel": "div.g-hero-card",
+      "tag": "div",
+      "top": 127,
+      "height": 591,
+      "words": 30,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Groovy",
+       "size": 35,
+       "tag": "h1"
+      },
+      "left": 40,
+      "right": 53,
+      "textLeft": 40,
+      "textRight": 53,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": true
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 2194,
+      "height": 2720,
+      "words": 40,
+      "media": 3,
+      "middle": 0,
+      "heading": null,
+      "left": 16,
+      "right": 164,
+      "textLeft": 16,
+      "textRight": 164,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": true
+     },
+     {
+      "sel": "section.g-work",
+      "tag": "section",
+      "top": 4915,
+      "height": 2532,
+      "words": 32,
+      "media": 4,
+      "middle": 0,
+      "heading": {
+       "text": "Studio",
+       "size": 49,
+       "tag": "h3"
+      },
+      "left": 0,
+      "right": 9,
+      "textLeft": 16,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 7447,
+      "height": 2957,
+      "words": 65,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Groovy",
+       "size": 66,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 25,
+      "textLeft": -9,
+      "textRight": 0,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": true
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 10404,
+      "height": 1126,
+      "words": 137,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Antes de escribir",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 30,
+      "textLeft": 16,
+      "textRight": 30,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "div",
+      "tag": "div",
+      "top": 11530,
+      "height": 929,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.g-footer",
+      "tag": "footer",
+      "top": 12459,
+      "height": 844,
+      "words": 31,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Hablemos de tu fecha",
+       "size": 43,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 62,
+      "textLeft": 0,
+      "textRight": 9,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 12124,
+      "height": 392
+     }
+    ],
+    "h1s": [
+     {
+      "text": "GROOVY · PICS",
+      "size": 35,
+      "top": 151,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "Groovy",
+      "side": "left",
+      "px": 16
+     },
+     {
+      "text": "Detrás del lente",
+      "side": "left",
+      "px": 16
+     },
+     {
+      "text": "Fotógrafo de Maracay. Prefiero la luz real a la po",
+      "side": "left",
+      "px": 16
+     },
+     {
+      "text": "La calle",
+      "side": "left",
+      "px": 16
+     },
+     {
+      "text": "Eventos y fiestas",
+      "side": "left",
+      "px": 16
+     },
+     {
+      "text": "En eventos trabajo invisible: sin interrumpir, sin",
+      "side": "left",
+      "px": 16
+     }
+    ],
+    "edges": [
+     {
+      "x": 16,
+      "n": 13
+     },
+     {
+      "x": 40,
+      "n": 3
+     }
+    ],
+    "leftBlocks": 16,
+    "bodySize": 17,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "16 different font sizes (13, 14, 15, 16, 17, 18, 19, 22, 35, 36, 37, 48, 72, 158, 173, 389).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "grey-body",
+   "width": 1440,
+   "message": "The running text is a soft grey on its ground (6.8:1).",
+   "fix": "Set body copy in the full ink (7:1 or more). Keep the muted ink for secondary notes; pages read thin and unfinished when everything is grey.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "blend-text",
+   "width": 1440,
+   "message": "1 text element(s) use mix-blend-mode difference or exclusion.",
+   "fix": "Over anything but black, white or grey, blended text takes random hues (blue on orange, lilac on green) that jurors read as a glitch. Use a solid ink chosen for the ground, or keep the blended text over neutral grounds only.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "untitled-section",
+   "width": 1440,
+   "message": "A section carries text but no heading: div at 2880px.",
+   "fix": "Name it with a short heading unless it is the continuation of the section above.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "covered-text",
+   "width": 1440,
+   "message": "Large text lies under another element at some scroll position: \"STUDIO\" (screen 8, 50% hidden); \"DE DÍA\" (screen 9, 50% hidden); \"DE NOCHE\" (screen 10, 50% hidden)",
+   "fix": "Nothing may sit on top of a headline or statement. Move the picture, shorten the pinned run, or raise the text above it (z-index) and give it a ground.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "pinned-over-picture",
+   "width": 1440,
+   "message": "Pinned large text slides across pictures while the page scrolls: \"GROOVY\" (screen 12, 38% over a picture); \"PICS\" (screen 3, 100% over a picture)",
+   "fix": "Jurors read a pinned title crossing drawings or photographs as a collision. Keep the pictures in the column the title does not occupy, or unpin it.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "long-pin",
+   "width": 1440,
+   "message": "The same large text stays on screen for 4 screens in a row: \"GROOVY · PICS\"",
+   "fix": "A pinned element earns two screens, and something must change at each. Shorten the run or give every screen its own content."
+  },
+  {
+   "level": "WARN",
+   "id": "small-title",
+   "width": 768,
+   "message": "The h1 is 28px (\"GROOVY · PICS\").",
+   "fix": "Set the title at display size, or make the large text of the first screen the h1."
+  },
+  {
+   "level": "WARN",
+   "id": "name-only-title",
+   "width": 768,
+   "message": "The h1 is a bare name (\"GROOVY · PICS\") and nothing else on the first screen says what this is.",
+   "fix": "Keep the name if it leads, and give the line under it (18px or more) the plain words: what it is, for whom, where or when. In the study of 97 Sites of the Day, first screens that named nothing lost usability and content points.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "blank-gap",
+   "width": 390,
+   "message": "A 392px stretch at 12124px holds nothing.",
+   "fix": "Check that it is a deliberate rest (once per page at most); otherwise close it to the normal section gap."
+  },
+  {
+   "level": "WARN",
+   "id": "edge-text",
+   "width": 390,
+   "message": "6 text block(s) sit 12–15px from the phone's edge: \"Groovy\" (16px); \"Detrás del lente\" (16px); \"Fotógrafo de Maracay. Prefiero\" (16px)",
+   "fix": "The page margin is 16–20px on a phone; the header and the corner labels sit on it too."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "D:\\dev\\groovy\\propuesta\\kiosko-2001\\.taste-skill\\final\\desktop-fold.jpg",
+   "pages": [
+    "D:\\dev\\groovy\\propuesta\\kiosko-2001\\.taste-skill\\final\\desktop-page-01.jpg",
+    "D:\\dev\\groovy\\propuesta\\kiosko-2001\\.taste-skill\\final\\desktop-page-02.jpg",
+    "D:\\dev\\groovy\\propuesta\\kiosko-2001\\.taste-skill\\final\\desktop-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "D:\\dev\\groovy\\propuesta\\kiosko-2001\\.taste-skill\\final\\tablet-fold.jpg",
+   "pages": [
+    "D:\\dev\\groovy\\propuesta\\kiosko-2001\\.taste-skill\\final\\tablet-page-01.jpg",
+    "D:\\dev\\groovy\\propuesta\\kiosko-2001\\.taste-skill\\final\\tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "D:\\dev\\groovy\\propuesta\\kiosko-2001\\.taste-skill\\final\\mobile-fold.jpg",
+   "pages": [
+    "D:\\dev\\groovy\\propuesta\\kiosko-2001\\.taste-skill\\final\\mobile-page-01.jpg",
+    "D:\\dev\\groovy\\propuesta\\kiosko-2001\\.taste-skill\\final\\mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}
