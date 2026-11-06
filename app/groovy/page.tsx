@@ -6,6 +6,7 @@ import { GroovyRealWork } from "@/components/groovy/real-work"
 import { GroovyAbout } from "@/components/groovy/about"
 import { GroovyFaq } from "@/components/groovy/faq"
 import { GroovyCta } from "@/components/groovy/cta"
+import { GroovyArchive } from "@/components/groovy/archive"
 import { GroovyFooter } from "@/components/groovy/footer"
 import { IdentityGate } from "@/components/identity-gate"
 import { Reveal } from "@/components/reveal"
@@ -16,21 +17,22 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: "Groovy.pics — Fotógrafo en Maracay | Estudio y eventos",
+  title: "Groovy.pics — Fotógrafo en Maracay | Retrato, eventos y producto",
   description:
-    "Fotógrafo en Maracay, Venezuela. Sesiones de estudio, bodas y eventos diurnos y nocturnos. Reserva tu fecha por WhatsApp con Groovy.pics.",
+    "Fotógrafo en Maracay, Venezuela. Retrato en estudio, cobertura de eventos, fotografía de productos y fashion. Reserva tu fecha por WhatsApp con Groovy.pics.",
   keywords: [
     "fotógrafo en Maracay",
+    "fotógrafo de retrato Maracay",
     "fotógrafo de eventos Maracay",
-    "fotógrafo de bodas Maracay",
-    "sesión de fotos estudio Maracay",
+    "fotografía de productos Maracay",
+    "fotografía fashion Maracay",
     "Groovy.pics",
   ],
   openGraph: {
     title: "Groovy.pics — Fotógrafo en Maracay",
     description:
-      "Estudio y eventos, de día y de noche. Tu historia, contada con luz.",
-    images: ["/portfolio/Ai.jpg"],
+      "Retrato, eventos, producto y moda. Tu historia, contada con luz.",
+    images: ["/portfolio/sesiones/retrato/retrato-estudio-maracay-01-1600.webp"],
     locale: "es_VE",
     type: "website",
   },
@@ -41,7 +43,7 @@ const jsonLd = {
   "@type": "Photographer",
   name: "Groovy.pics",
   description:
-    "Fotógrafo en Maracay: estudio, bodas y eventos diurnos y nocturnos.",
+    "Fotógrafo en Maracay: retrato en estudio, cobertura de eventos, fotografía de productos y fashion.",
   areaServed: { "@type": "City", name: "Maracay" },
   address: { "@type": "PostalAddress", addressLocality: "Maracay", addressRegion: "Aragua", addressCountry: "VE" },
   telephone: "+584128911838",
@@ -72,6 +74,9 @@ export default function GroovyPage() {
       </Reveal>
       <Reveal>
         <GroovyCta />
+      </Reveal>
+      <Reveal>
+        <GroovyArchive />
       </Reveal>
       <GroovyFooter />
       <IdentityGate from="groovy" />

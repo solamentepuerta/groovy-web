@@ -1,13 +1,17 @@
 import { waLink } from "@/lib/wa"
+import { firstPhotosOf, largestSize } from "@/lib/groovy-gallery"
+
+const [fashionShot] = firstPhotosOf("fashion", 1)
+const fashionSize = largestSize(fashionShot)
 
 export function GroovyCta() {
   return (
     <section className="g-cta" aria-label="Reserva tu fecha">
       <img
-        src="/portfolio/studio-photos-11.jpg"
-        alt="Sesión de estudio de Groovy.pics"
-        width={1440}
-        height={960}
+        src={fashionSize.file}
+        alt="Sesión de fotografía de moda de Groovy.pics"
+        width={fashionSize.w}
+        height={fashionSize.h}
         loading="lazy"
       />
       <div className="g-cta-text">

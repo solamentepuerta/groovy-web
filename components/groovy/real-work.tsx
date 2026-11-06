@@ -1,55 +1,29 @@
-"use client"
+import { largestSize, photosOf, type GalleryPhoto } from "@/lib/groovy-gallery"
 
 type Shot = {
   src: string
+  w: number
+  h: number
   alt: string
   caption: string
-  note: string
 }
 
+/** Toma la resolución mayor del manifest y le pone un alt que describe la foto real. */
+function fromPhoto(photo: GalleryPhoto, alt: string, caption: string): Shot {
+  const size = largestSize(photo)
+  return { src: size.file, w: size.w, h: size.h, alt, caption }
+}
+
+const retrato = photosOf("retrato")
+const productos = photosOf("productos")
+
 const SHOTS: Shot[] = [
-  {
-    src: "/portfolio/reales/estudio-oscuro-2.webp",
-    alt: "Retrato de estudio sobre fondo oscuro, luz lateral suave",
-    caption: "Estudio · fondo oscuro",
-    note: "Luz lateral con softbox",
-  },
-  {
-    src: "/portfolio/reales/estudio-blanco-1.webp",
-    alt: "Retrato de estudio sobre fondo blanco con iluminación lateral",
-    caption: "Estudio · fondo blanco",
-    note: "Plano medio, fondo infinito",
-  },
-  {
-    src: "/portfolio/reales/estudio-oscuro-3.webp",
-    alt: "Bailarina en movimiento con efecto de polvo, fondo oscuro",
-    caption: "Estudio · movimiento",
-    note: "Congelada con flash",
-  },
-  {
-    src: "/portfolio/reales/estudio-blanco-3.webp",
-    alt: "Retrato de estudio, fondo blanco, pose de brazo elevado",
-    caption: "Estudio · pose",
-    note: "Contraluz de contorno",
-  },
-  {
-    src: "/portfolio/reales/estudio-oscuro-4.webp",
-    alt: "Retrato editorial con fondo oscuro y partículas en suspensión",
-    caption: "Estudio · editorial",
-    note: "Partículas en suspensión",
-  },
-  {
-    src: "/portfolio/reales/estudio-blanco-2.webp",
-    alt: "Retrato de estudio sobre fondo blanco, iluminación lateral suave",
-    caption: "Estudio · blanco",
-    note: "Luz suave, sin sombra dura",
-  },
-  {
-    src: "/portfolio/reales/estudio-oscuro-1.webp",
-    alt: "Retrato de estudio con fondo gris oscuro y luz lateral",
-    caption: "Estudio · gris",
-    note: "Fondo neutro, foco en la figura",
-  },
+  fromPhoto(retrato[3], "Modelo sentada en un taburete con conjunto rosa", "Retrato · taburete"),
+  fromPhoto(retrato[4], "Retrato de medio cuerpo con top azul y fondo oscuro", "Retrato · medio cuerpo"),
+  fromPhoto(retrato[7], "Dos modelos con body negro posando juntas", "Retrato · dúo"),
+  fromPhoto(retrato[6], "Modelo de cuerpo entero con body negro, brazos en alto", "Retrato · cuerpo entero"),
+  fromPhoto(retrato[5], "Dos modelos posando junto a un taburete", "Retrato · estudio"),
+  fromPhoto(productos[0], "Bodegón de frascos de pintura, pincel y tela", "Producto · bodegón"),
 ]
 
 export function GroovyRealWork() {
@@ -60,11 +34,11 @@ export function GroovyRealWork() {
           Trabajo real
         </h2>
         <p className="rw-lead">
-          Una muestra de sesiones de estudio en Maracay: la misma modelo, el mismo día, con la
-          luz armada en el set. Así se ve el trabajo de Groovy.pics.
+          Seis fotos de las sesiones en Maracay: retrato en estudio y bodegón de producto, con
+          la luz armada en el set.
         </p>
         <p className="rw-stamp" aria-hidden="true">
-          Ejemplos
+          Archivo
           <span>Groovy.pics</span>
         </p>
       </header>
@@ -76,13 +50,12 @@ export function GroovyRealWork() {
               className="rw-shot__img"
               src={s.src}
               alt={s.alt}
-              width={1080}
-              height={1440}
+              width={s.w}
+              height={s.h}
               loading="lazy"
             />
             <figcaption>
               <strong>{s.caption}</strong>
-              <span>{s.note}</span>
             </figcaption>
           </figure>
         ))}

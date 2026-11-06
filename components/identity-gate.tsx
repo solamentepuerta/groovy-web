@@ -19,7 +19,7 @@ const PORTFOLIO = {
   href: "/groovy",
   name: "Groovy.pics",
   kind: "Portafolio",
-  line: "Fotografía en Maracay: estudio, bodas y eventos.",
+  line: "Fotografía en Maracay: retrato, eventos, producto y moda.",
   meta: "Reserva por WhatsApp",
 }
 

@@ -3,44 +3,9 @@
 import { useRef } from "react"
 import { motion, useScroll, useTransform } from "framer-motion"
 import { waLink } from "@/lib/wa"
+import { groovyCategories, type GroovyCategory } from "@/lib/groovy-categories"
 
-type Project = {
-  title: string
-  meta: string
-  left: string
-  right: string
-  leftAlt: string
-  rightAlt: string
-}
-
-const projects: Project[] = [
-  {
-    title: "Studio",
-    meta: "Retrato y editorial",
-    left: "/portfolio/studio-photos-11.jpg",
-    right: "/portfolio/studio-photos-1.jpg",
-    leftAlt: "Retrato en estudio con luz controlada",
-    rightAlt: "Sesión de estudio, fondo neutro",
-  },
-  {
-    title: "De día",
-    meta: "Bodas y eventos diurnos",
-    left: "/portfolio/boda-event-1.jpg",
-    right: "/portfolio/boda-event-3.jpg",
-    leftAlt: "Boda de día, ceremonia al aire libre",
-    rightAlt: "Celebración diurna, invitados",
-  },
-  {
-    title: "De noche",
-    meta: "Fiestas y conciertos",
-    left: "/portfolio/night-event-2.jpg",
-    right: "/portfolio/night-event-6.jpg",
-    leftAlt: "Fiesta nocturna con luces de escenario",
-    rightAlt: "Concierto de noche, ambiente y luz",
-  },
-]
-
-function ProjectStage({ p }: { p: Project }) {
+function ProjectStage({ p }: { p: GroovyCategory }) {
   const ref = useRef<HTMLElement>(null)
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -52,7 +17,7 @@ function ProjectStage({ p }: { p: Project }) {
   const yTitleR = useTransform(scrollYProgress, [0, 1], ["-16svh", "16svh"])
 
   return (
-    <article className="g-project" ref={ref}>
+    <article className="g-project" ref={ref} data-placeholder={p.placeholder || undefined}>
       <div className="g-project-panes">
         <motion.div className="g-pane" style={{ y: yUp }}>
           <img src={p.left} alt={p.leftAlt} width={720} height={900} loading="lazy" />
@@ -88,7 +53,7 @@ export function GroovyWork() {
     <section className="g-work" aria-label="Especialidades">
       <h2 className="g-work-heading">Lo que hago</h2>
       <div className="g-work-stage">
-        {projects.map((p) => (
+        {groovyCategories.map((p) => (
           <ProjectStage key={p.title} p={p} />
         ))}
       </div>

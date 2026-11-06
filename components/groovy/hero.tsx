@@ -15,7 +15,14 @@ export function GroovyHero() {
   return (
     <header className="g-hero" ref={ref}>
       <div className="g-hero-bg" aria-hidden="true">
-        <img src="/portfolio/Ai.jpg" alt="" width={736} height={1096} fetchPriority="high" />
+        {/* retrato 01 de la sesión real; ruta fija para no cargar el manifest en el bundle del cliente */}
+        <img
+          src="/portfolio/sesiones/retrato/retrato-estudio-maracay-01-1600.webp"
+          alt=""
+          width={1600}
+          height={2400}
+          fetchPriority="high"
+        />
       </div>
       <motion.div className="g-hero-card" style={{ scale }}>
         <h1 className="g-hero-card-title g-wide">
@@ -26,11 +33,11 @@ export function GroovyHero() {
         <div>
           <div className="g-hero-facts">
             <p>Fotógrafo en Maracay</p>
-            <p>Estudio y eventos</p>
-            <p>De día y de noche</p>
+            <p>Retrato, eventos y producto</p>
+            <p>Fashion y editorial</p>
           </div>
           <p className="g-hero-sentence">
-            Tu historia, contada con luz. Sesiones en estudio, bodas y fiestas.
+            Tu historia, contada con luz. Retrato, eventos, producto y moda.
           </p>
         </div>
         <div className="g-hero-card-bottom">
