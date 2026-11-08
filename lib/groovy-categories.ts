@@ -1,6 +1,6 @@
 import {
-  firstPhotosOf,
   largestSize,
+  photosOf,
   type GalleryCategorySlug,
   type GalleryPhoto,
 } from "./groovy-gallery"
@@ -8,11 +8,18 @@ import {
 /**
  * Categorías del portafolio de Groovy.pics.
  *
- * Las fotos ya son las reales del cliente (manifest `lib/groovy-gallery.json`).
- * Cada categoría muestra las dos primeras de su sesión, en la resolución más
- * grande disponible. No hay rutas que mantener a mano: si el manifest cambia,
- * esta previsualización lo sigue.
+ * Las fotos son las reales del cliente (manifest `lib/groovy-gallery.json`). Cada
+ * categoría muestra dos tomas de su sesión, en la resolución más grande que exista
+ * — algunas fotos no tienen 1600, así que las medidas se leen del manifest y nunca
+ * se estiran a un tamaño que el archivo no tiene.
  */
+
+export type GroovyCategorySide = {
+  src: string
+  w: number
+  h: number
+  alt: string
+}
 
 export type GroovyCategory = {
   /** Nombre literal del cliente. Único: se usa como `key` de React. */
@@ -21,36 +28,54 @@ export type GroovyCategory = {
   meta: string
   /** `false` = las dos fotos son definitivas del cliente. */
   placeholder: boolean
-  left: string
-  right: string
-  leftAlt: string
-  rightAlt: string
+  left: GroovyCategorySide
+  right: GroovyCategorySide
 }
 
-function preview(cat: GalleryCategorySlug): { left: GalleryPhoto; right: GalleryPhoto } {
-  const [left, right] = firstPhotosOf(cat, 2)
-  if (!left || !right) {
-    throw new Error(`La sesión "${cat}" necesita al menos dos fotos en el manifest`)
-  }
-  return { left, right }
+function sideOf(photo: GalleryPhoto): GroovyCategorySide {
+  const size = largestSize(photo)
+  return { src: size.file, w: size.w, h: size.h, alt: photo.alt }
 }
 
-function build(cat: GalleryCategorySlug, title: string, meta: string): GroovyCategory {
-  const { left, right } = preview(cat)
+/** Foto de una sesión por su número (`-21` → cobertura-evento-maracay-21). */
+function numbered(cat: GalleryCategorySlug, n: number): GalleryPhoto {
+  const suffix = `-${String(n).padStart(2, "0")}`
+  const photo = photosOf(cat).find((p) => p.slug.endsWith(suffix))
+  if (!photo) throw new Error(`No existe la foto ${suffix} en la sesión "${cat}"`)
+  return photo
+}
+
+function build(
+  cat: GalleryCategorySlug,
+  title: string,
+  meta: string,
+  picks: { left: number; right: number },
+): GroovyCategory {
   return {
     title,
     meta,
     placeholder: false,
-    left: largestSize(left).file,
-    right: largestSize(right).file,
-    leftAlt: left.alt,
-    rightAlt: right.alt,
+    left: sideOf(numbered(cat, picks.left)),
+    right: sideOf(numbered(cat, picks.right)),
   }
 }
 
 export const groovyCategories: GroovyCategory[] = [
-  build("retrato", "Fotografía de retrato", "Retrato en estudio y dirección de pose"),
-  build("eventos", "Cobertura de eventos", "Bodas, fiestas y conciertos"),
-  build("productos", "Fotografía de productos", "Bodegón, catálogo y e-commerce"),
-  build("fashion", "Fotografía fashion", "Editorial y posing de moda"),
+  build("retrato", "Fotografía de retrato", "Retrato en estudio y dirección de pose", {
+    left: 1,
+    right: 2,
+  }),
+  // La derecha es la boda (21): solo existe en 480 y 960, se usa la de 960.
+  build("eventos", "Cobertura de eventos", "Bodas, fiestas y conciertos", {
+    left: 1,
+    right: 21,
+  }),
+  build("productos", "Fotografía de productos", "Bodegón, catálogo y e-commerce", {
+    left: 1,
+    right: 2,
+  }),
+  build("fashion", "Fotografía fashion", "Editorial y posing de moda", {
+    left: 1,
+    right: 2,
+  }),
 ]

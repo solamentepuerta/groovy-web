@@ -1,3 +1,4 @@
+import type { CSSProperties } from "react"
 import { largestSize, photosOf, type GalleryCategorySlug } from "@/lib/groovy-gallery"
 
 /** Foto concreta del manifest por sesión y número, sin depender del orden del array. */
@@ -37,7 +38,11 @@ export function GroovySequence() {
           la que queda cuando la fiesta decide que sigue.
         </p>
       </div>
-      <div className="g-seq" id="trabajo">
+      <div
+        className="g-seq"
+        id="trabajo"
+        style={{ "--g-seq-count": shots.length } as CSSProperties}
+      >
         {shots.map((s, i) => (
           <figure className="g-seq-item" key={s.src}>
             <img
