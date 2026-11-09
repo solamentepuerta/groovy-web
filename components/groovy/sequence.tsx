@@ -32,12 +32,6 @@ const shots: SeqShot[] = [
 export function GroovySequence() {
   return (
     <section aria-label="Trabajo nocturno reciente">
-      <div className="g-seq-lead">
-        <p>
-          La noche no espera a nadie. Trabajo con la luz que hay: la del escenario, la del flash,
-          la que queda cuando la fiesta decide que sigue.
-        </p>
-      </div>
       <div
         className="g-seq"
         id="trabajo"
@@ -52,6 +46,12 @@ export function GroovySequence() {
               height={s.h}
               loading={i === 0 ? "eager" : "lazy"}
             />
+            {i === 0 && (
+              <p className="g-seq-overlay">
+                La noche no espera a nadie. Trabajo con la luz que hay: la del escenario, la del
+                flash, la que queda cuando la fiesta decide que sigue.
+              </p>
+            )}
             <figcaption>{s.caption}</figcaption>
           </figure>
         ))}

@@ -356,7 +356,7 @@ button { font: inherit; cursor: pointer; }
   margin: 0 auto; width: min(55%, 860px); height: 62svh;
   background: var(--g-blue-rise); color: var(--g-ink-on-paper);
   padding: 32px; display: flex; flex-direction: column; justify-content: space-between;
-  transform-origin: left bottom;
+  transform-origin: center center;
   overflow: hidden; isolation: isolate;
 }
 .g-hero-card-title {
@@ -376,17 +376,21 @@ button { font: inherit; cursor: pointer; }
 }
 
 /* gallery: full-bleed sequence, text interlocked */
-.g-seq-lead {
-  display: flex; justify-content: flex-end; padding: 120px 32px 0;
-  background: var(--g-bg);
-}
-.g-seq-lead p {
-  width: 220px; font-size: 14px; line-height: 1.55; color: var(--g-ink);
-  margin: 0 42% -72px 0; position: relative; z-index: 5;
-}
-.g-seq { position: relative; height: calc(100svh * var(--g-seq-count, 3)); margin-top: 72px; }
+.g-seq { position: relative; height: calc(100svh * var(--g-seq-count, 3)); }
 .g-seq-item { position: sticky; top: 0; height: 100svh; overflow: hidden; }
 .g-seq-item img { width: 100%; height: 100%; object-fit: cover; }
+/* el párrafo de apertura, sobre la primera foto (no sobre el hero) */
+.g-seq-overlay {
+  position: absolute; z-index: 4;
+  top: clamp(88px, 14svh, 180px);
+  left: clamp(16px, 3vw, 32px);
+  max-width: 30ch;
+  margin: 0;
+  font-size: clamp(14px, 1.2vw, 16px);
+  line-height: 1.5;
+  color: var(--g-ink);
+  text-shadow: 0 1px 18px rgb(0 0 0 / 55%);
+}
 /* A sangre y con alto fluido: la banda no corta a los lados ni deja un borde duro arriba. */
 .g-seq-item figcaption {
   position: absolute; left: 0; right: 0; bottom: 0; height: auto;
@@ -401,9 +405,6 @@ button { font: inherit; cursor: pointer; }
   );
 }
 @media (max-width: 720px) {
-  .g-seq-lead { padding: 80px 16px 0; justify-content: flex-start; }
-  .g-seq-lead p { margin: 0 0 -54px; width: 60%; }
-  .g-seq { margin-top: 54px; }
   .g-seq-item figcaption { font-size: 14px; }
 }
 

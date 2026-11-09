@@ -1,7 +1,7 @@
 "use client"
 
 import { useRef } from "react"
-import { motion, useScroll, useTransform } from "framer-motion"
+import { motion, useMotionTemplate, useScroll, useTransform } from "framer-motion"
 import { waLink } from "@/lib/wa"
 
 export function GroovyHero() {
@@ -11,6 +11,9 @@ export function GroovyHero() {
     offset: ["start start", "end start"],
   })
   const scale = useTransform(scrollYProgress, [0, 1], [1, 0.22])
+  // El desenfoque progresivo es el remate: sustituye el corte seco de la tarjeta al salir.
+  const blurPx = useTransform(scrollYProgress, [0, 0.55, 0.95], [0, 1.5, 12])
+  const blur = useMotionTemplate`blur(${blurPx}px)`
 
   return (
     <header className="g-hero" ref={ref}>
@@ -24,7 +27,10 @@ export function GroovyHero() {
           fetchPriority="high"
         />
       </div>
-      <motion.div className="g-hero-card" style={{ scale }}>
+      <motion.div
+        className="g-hero-card"
+        style={{ scale, filter: blur, willChange: "transform, filter" }}
+      >
         <h1 className="g-hero-card-title g-wide">
           <span>Groovy</span>
           <span>·</span>

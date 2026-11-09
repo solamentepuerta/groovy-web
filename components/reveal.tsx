@@ -17,7 +17,7 @@ const TARGETS = [
   ".k-strip-heading", ".k-strip-row", ".k-tile", ".k-how-heading",
   ".k-faq-heading", ".k-faq-facts", ".k-faq-item", ".k-faq-actions", ".k-faq-right",
   ".k-cta-text", ".k-postcard",
-  ".g-seq-lead", ".g-seq-item", ".g-person",
+  ".g-seq-item", ".g-person",
   ".g-work-heading", ".g-cta-text", ".g-footer-invite", ".g-footer-links", ".g-footer-mark",
 ]
 
