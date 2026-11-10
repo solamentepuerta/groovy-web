@@ -80,6 +80,7 @@ function ProjectStage({
             height={p.right.h}
             loading="lazy"
           />
+          {p.rightLabel && <span className="g-pane-label">{p.rightLabel}</span>}
         </motion.div>
       </div>
       <h3 className="g-project-title g-wide" aria-label={p.title}>

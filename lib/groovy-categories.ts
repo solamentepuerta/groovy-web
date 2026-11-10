@@ -28,6 +28,8 @@ export type GroovyCategory = {
   meta: string
   /** `false` = las dos fotos son definitivas del cliente. */
   placeholder: boolean
+  /** Etiqueta opcional sobre la foto de la derecha. */
+  rightLabel?: string
   left: GroovyCategorySide
   right: GroovyCategorySide
 }
@@ -50,21 +52,26 @@ function build(
   title: string,
   meta: string,
   picks: { left: number; right: number },
+  rightLabel?: string,
 ): GroovyCategory {
   return {
     title,
     meta,
     placeholder: false,
+    rightLabel,
     left: sideOf(numbered(cat, picks.left)),
     right: sideOf(numbered(cat, picks.right)),
   }
 }
 
 export const groovyCategories: GroovyCategory[] = [
-  build("retrato", "Fotografía de retrato", "Retrato en estudio y dirección de pose", {
-    left: 1,
-    right: 2,
-  }),
+  build(
+    "retrato",
+    "Fotografía de retrato",
+    "Retrato en estudio y dirección de pose",
+    { left: 1, right: 2 },
+    "Retrato (5)",
+  ),
   // La derecha es la boda (21): solo existe en 480 y 960, se usa la de 960.
   build("eventos", "Cobertura de eventos", "Bodas, fiestas y conciertos", {
     left: 1,
