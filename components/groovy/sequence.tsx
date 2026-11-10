@@ -22,16 +22,21 @@ function shot(cat: GalleryCategorySlug, n: number, alt: string, caption: string)
   return { src: size.file, w: size.w, h: size.h, alt, caption }
 }
 
-/* Las tres horizontales de concierto: las únicas nocturnas de la sesión de eventos. */
+/* Primera foto: editorial de estudio. Las dos siguientes: los únicos conciertos de la sesión de eventos. */
 const shots: SeqShot[] = [
-  shot("eventos", 2, "Banda tocando en vivo bajo luces de escenario", "Concierto en vivo · Maracay"),
+  shot(
+    "fashion",
+    4,
+    "Modelo con bañador de rayas amarillas y blancas mordiendo una sandía, en estudio de fondo amarillo",
+    "Editorial · Maracay",
+  ),
   shot("eventos", 5, "Cantante con micrófono entre humo y haces de luz", "Voz en vivo · Maracay"),
   shot("eventos", 12, "Cantante bajo luces azules de escenario", "Escenario · Maracay"),
 ]
 
 export function GroovySequence() {
   return (
-    <section aria-label="Trabajo nocturno reciente">
+    <section aria-label="Trabajo reciente: estudio y escenario">
       <div
         className="g-seq"
         id="trabajo"
@@ -48,8 +53,8 @@ export function GroovySequence() {
             />
             {i === 0 && (
               <p className="g-seq-overlay">
-                La noche no espera a nadie. Trabajo con la luz que hay: la del escenario, la del
-                flash, la que queda cuando la fiesta decide que sigue.
+                La luz la construyo en el estudio y la persigo en un concierto. Cambia el lugar,
+                no la idea: el momento justo, con la luz que hay.
               </p>
             )}
             <figcaption>{s.caption}</figcaption>

@@ -18,9 +18,9 @@ export function GroovyHero() {
   return (
     <header className="g-hero" ref={ref}>
       <div className="g-hero-bg" aria-hidden="true">
-        {/* fashion 04, la foto que Luis eligió para el hero; ruta fija para no cargar el manifest en el bundle del cliente */}
+        {/* retrato 01 de la sesión real, la foto que Luis eligió para el hero; ruta fija para no cargar el manifest en el bundle del cliente */}
         <img
-          src="/portfolio/sesiones/fashion/fotografia-fashion-maracay-04-1600.webp"
+          src="/portfolio/sesiones/retrato/retrato-estudio-maracay-01-1600.webp"
           alt=""
           width={1600}
           height={2400}

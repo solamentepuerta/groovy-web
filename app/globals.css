@@ -391,6 +391,22 @@ button { font: inherit; cursor: pointer; }
   color: var(--g-ink);
   text-shadow: 0 1px 18px rgb(0 0 0 / 55%);
 }
+/* Velo detrás del párrafo: la primera foto de la secuencia puede ser clara
+   (fondo amarillo de estudio) y el texto blanco se perdía sobre ella. */
+.g-seq-overlay::before {
+  content: "";
+  position: absolute;
+  inset: -18px -24px;
+  z-index: -1;
+  pointer-events: none;
+  border-radius: 20px;
+  background: radial-gradient(
+    130% 130% at 0% 0%,
+    rgb(10 11 13 / 62%) 0%,
+    rgb(10 11 13 / 34%) 52%,
+    rgb(10 11 13 / 0%) 78%
+  );
+}
 /* A sangre y con alto fluido: la banda no corta a los lados ni deja un borde duro arriba. */
 .g-seq-item figcaption {
   position: absolute; left: 0; right: 0; bottom: 0; height: auto;
