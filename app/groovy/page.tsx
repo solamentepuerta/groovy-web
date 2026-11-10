@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     title: "Groovy.pics — Fotógrafo en Maracay",
     description:
       "Retrato, eventos, producto y moda. Tu historia, contada con luz.",
-    images: ["/portfolio/sesiones/retrato/retrato-estudio-maracay-01-1600.webp"],
+    images: ["/portfolio/sesiones/fashion/fotografia-fashion-maracay-04-1600.webp"],
     locale: "es_VE",
     type: "website",
   },

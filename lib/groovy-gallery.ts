@@ -39,11 +39,33 @@ export const GALLERY_CATEGORY_LABELS: Record<GalleryCategorySlug, string> = {
   fashion: "Fashion",
 }
 
+/**
+ * Fotos que van primeras dentro de su propia sesión, en el orden de esta lista.
+ *
+ * Vive en el código y no en `groovy-gallery.json` a propósito: ese manifest se
+ * genera fuera del repo y se regenera entero, así que cualquier reordenación
+ * hecha a mano se perdería. No toca los slugs ni los nombres de archivo.
+ */
+const PINNED_SLUGS = ["fotografia-fashion-maracay-04"]
+
+const missingPinned = PINNED_SLUGS.filter((slug) => !photos.some((p) => p.slug === slug))
+if (missingPinned.length) {
+  throw new Error(`PINNED_SLUGS: no existen en el manifest: ${missingPinned.join(", ")}`)
+}
+
+/** Fijadas primero (en el orden de PINNED_SLUGS); el resto, alfabético por slug. */
+function pinnedThenSlug(a: GalleryPhoto, b: GalleryPhoto): number {
+  const ia = PINNED_SLUGS.indexOf(a.slug)
+  const ib = PINNED_SLUGS.indexOf(b.slug)
+  if (ia !== -1 && ib !== -1) return ia - ib
+  if (ia !== -1) return -1
+  if (ib !== -1) return 1
+  return a.slug.localeCompare(b.slug)
+}
+
 /** Las 44 fotos, agrupadas por sesión en el orden de GALLERY_CATEGORY_ORDER. */
 export const galleryPhotos: GalleryPhoto[] = GALLERY_CATEGORY_ORDER.flatMap((cat) =>
-  photos
-    .filter((photo) => photo.cat === cat)
-    .sort((a, b) => a.slug.localeCompare(b.slug)),
+  photos.filter((photo) => photo.cat === cat).sort(pinnedThenSlug),
 )
 
 export const GALLERY_TOTAL = galleryPhotos.length
