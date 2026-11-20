@@ -1,14 +1,17 @@
 import type { Metadata, Viewport } from "next"
 import "./globals.css"
 
+/** Dominio real del sitio; se puede sobreescribir en el deploy con NEXT_PUBLIC_SITE_URL. */
+export const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://socialgroovystudio.com"
+
 export const metadata: Metadata = {
   title: {
-    default: "Kiosko 2001 — Streetwear en Maracay",
+    default: "Groovy.pics — Fotógrafo en Maracay",
     template: "%s",
   },
   description:
-    "Kiosko 2001: hoodies, tees, pants y crops. Pide por WhatsApp, sin vueltas. Proyecto demo de puertale.com.",
-  metadataBase: new URL("https://kiosko2001.demo"),
+    "Fotógrafo en Maracay, Venezuela. Retrato en estudio, cobertura de eventos, fotografía de productos y fashion.",
+  metadataBase: new URL(siteUrl),
 }
 
 export const viewport: Viewport = {
