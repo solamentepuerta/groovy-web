@@ -23,10 +23,10 @@ export function GroovyFooter() {
           >
             +58 412 891 1838
           </a>
+          <a href="/enlaces">Todos los enlaces</a>
           <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
             Instagram
           </a>
-          <a href="/">Kiosko 2001 — la tienda</a>
           <a href="https://puertale.com" target="_blank" rel="noopener noreferrer">
             Hecho por puertale.com
           </a>
@@ -34,12 +34,6 @@ export function GroovyFooter() {
       </div>
       <div className="g-footer-credits">
         <span>© 2026 Groovy.pics · Maracay, Venezuela</span>
-        <span>
-          Proyecto demo de{" "}
-          <a href="https://puertale.com" target="_blank" rel="noopener noreferrer">
-            puertale.com
-          </a>
-        </span>
       </div>
       <div className="g-footer-mark" aria-hidden="true">
         <div className="g-marquee">

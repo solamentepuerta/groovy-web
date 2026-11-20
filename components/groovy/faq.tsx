@@ -17,7 +17,7 @@ const rows = [
   },
   {
     q: "¿Puedo pedir fotos para mi marca?",
-    a: "Claro: producto, lookbook y contenido para redes. Si vendes ropa, además tienes a Kiosko 2001 como referencia de estilo.",
+    a: "Claro: producto, lookbook y contenido para redes. Si vendes ropa, armamos el set con tu marca y tu ropa.",
   },
 ]
 

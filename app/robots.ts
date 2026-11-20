@@ -1,8 +1,9 @@
 import type { MetadataRoute } from "next"
+import { siteUrl } from "./layout"
 
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: { userAgent: "*", allow: "/" },
-    sitemap: "https://kiosko2001.demo/sitemap.xml",
+    sitemap: `${siteUrl}/sitemap.xml`,
   }
 }

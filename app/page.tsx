@@ -1,34 +1,88 @@
-import { KioskoHero } from "@/components/kiosko/hero"
-import { KioskoChapters } from "@/components/kiosko/chapters"
-import { KioskoRack } from "@/components/kiosko/rack"
-import { KioskoHowItWorks } from "@/components/kiosko/how-it-works"
-import { KioskoFaq } from "@/components/kiosko/faq"
-import { KioskoCta } from "@/components/kiosko/cta"
-import { KioskoFooter } from "@/components/kiosko/footer"
-import { IdentityGate } from "@/components/identity-gate"
+import type { Metadata, Viewport } from "next"
+import { GroovyHero } from "@/components/groovy/hero"
+import { GroovySequence } from "@/components/groovy/sequence"
+import { GroovyWork } from "@/components/groovy/work"
+import { GroovyRealWork } from "@/components/groovy/real-work"
+import { GroovyAbout } from "@/components/groovy/about"
+import { GroovyFaq } from "@/components/groovy/faq"
+import { GroovyCta } from "@/components/groovy/cta"
+import { GroovyArchive } from "@/components/groovy/archive"
+import { GroovyFooter } from "@/components/groovy/footer"
 import { Reveal } from "@/components/reveal"
+
+export const viewport: Viewport = {
+  themeColor: "#0a0b0d",
+  colorScheme: "dark",
+}
+
+export const metadata: Metadata = {
+  title: "Groovy.pics — Fotógrafo en Maracay | Retrato, eventos y producto",
+  description:
+    "Fotógrafo en Maracay, Venezuela. Retrato en estudio, cobertura de eventos, fotografía de productos y fashion. Reserva tu fecha por WhatsApp con Groovy.pics.",
+  alternates: { canonical: "/" },
+  keywords: [
+    "fotógrafo en Maracay",
+    "fotógrafo de retrato Maracay",
+    "fotógrafo de eventos Maracay",
+    "fotografía de productos Maracay",
+    "fotografía fashion Maracay",
+    "Groovy.pics",
+  ],
+  openGraph: {
+    title: "Groovy.pics — Fotógrafo en Maracay",
+    description: "Retrato, eventos, producto y moda. Tu historia, contada con luz.",
+    images: ["/portfolio/sesiones/retrato/retrato-estudio-maracay-01-1600.webp"],
+    locale: "es_VE",
+    type: "website",
+  },
+}
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Photographer",
+  name: "Groovy.pics",
+  description:
+    "Fotógrafo en Maracay: retrato en estudio, cobertura de eventos, fotografía de productos y fashion.",
+  areaServed: { "@type": "City", name: "Maracay" },
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Maracay",
+    addressRegion: "Aragua",
+    addressCountry: "VE",
+  },
+  telephone: "+584128911838",
+  url: "https://socialgroovystudio.com",
+  sameAs: ["https://puertale.com"],
+}
 
 export default function Page() {
   return (
-    <main>
-      <KioskoHero />
+    <div className="g-page">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <GroovyHero />
       <Reveal>
-        <KioskoChapters />
+        <GroovySequence />
+      </Reveal>
+      <GroovyWork />
+      <Reveal>
+        <GroovyRealWork />
       </Reveal>
       <Reveal>
-        <KioskoRack />
+        <GroovyAbout />
       </Reveal>
       <Reveal>
-        <KioskoHowItWorks />
+        <GroovyFaq />
       </Reveal>
       <Reveal>
-        <KioskoFaq />
+        <GroovyCta />
       </Reveal>
       <Reveal>
-        <KioskoCta />
+        <GroovyArchive />
       </Reveal>
-      <KioskoFooter />
-      <IdentityGate from="kiosko" />
-    </main>
+      <GroovyFooter />
+    </div>
   )
 }
