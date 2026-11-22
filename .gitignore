@@ -13,3 +13,7 @@ node_modules/
 # build artifacts
 *.tsbuildinfo
 next-env.d.ts
+
+# export estático y caché de wrangler
+out/
+.wrangler/

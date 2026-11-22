@@ -1,5 +1,7 @@
 import type { MetadataRoute } from "next"
 import { galleryPhotos, largestSize } from "@/lib/groovy-gallery"
+
+export const dynamic = "force-static"
 import { siteUrl } from "./layout"
 
 export default function sitemap(): MetadataRoute.Sitemap {
