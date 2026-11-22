@@ -3,9 +3,10 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  async redirects() {
-    return [{ source: "/groovy", destination: "/", permanent: true }]
-  },
+  // Export estático: genera `out/` y se sirve desde cualquier hosting de ficheros.
+  // Los redirects de next.config no existen con export; viven en public/_redirects.
+  output: "export",
+  images: { unoptimized: true },
 }
 
 export default nextConfig
